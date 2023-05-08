@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: nunito;
+    padding: 10px;
+}
+
+/* the header */
+header .desc{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    background-image: url("goodluck.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+header h1{
+    margin-top: 0%;
+}
+header .desc .desc_item{
+
+padding: 20px;
+width: 30%;
+background-color: white; box-shadow: 1px 1px 30px rgb(0 0 0 /10%);
+border-radius: 15px;
+transition: .3s ease-in;
+}
+
+   header .desc .desc_item:hover{
+    background-color: rgb(0 131 141 /10%);
+    color: #ffffff;
+    box-shadow: 1px 1px 30px rgb(0 0 0 /10%);
+
+
+   }
+   header .desc .desc_item h2{
+    color: #00838f;
+   }
+
+   /* color grouping */
+   section .color_grouping div{
+    width: 30%;
+    padding: 10px;
+   text-align: center;
+   font-size: 20px;
+   margin: 0px 15px 0px 15px;
+    
+   }
+
+
+   section .color_grouping{
+    
+    display: flex;
+   }
+   
+h2.color_type{
+    color: grey;
+    font-size: 15px;
+    
+}
+/* Color Name Grouping */
+.color_grouping div:nth-child(1){
+ background-color: red;
+ 
+}
+
+.color_grouping div:nth-child(2){
+    background-color: blue;
+}
+
+.color_grouping div:nth-child(3){
+    background-color: green;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
